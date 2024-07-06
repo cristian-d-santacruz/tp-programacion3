@@ -1,0 +1,410 @@
+/*general*/
+
+* { margin:0; padding: 0; }
+/*body { 
+    background-image:
+    url("img/fondomax.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+*/ 
+body{
+    background-color: black;
+}
+/*barra de nav*/
+header{width: 1300px;
+	padding-top: 1%;
+	padding-right: 5%;
+	padding-bottom: 0%;
+	padding-left: 5%;
+	display: flex;
+	justify-content: space-between;
+    background-color:#000000;
+    position:  sticky;
+    top: 0;
+}
+nav ul li{display: inline-block;}
+
+nav ul li a{
+	font-size: 1.5rem;
+	padding-right: 0rem;
+    color:aliceblue;
+    margin-right: 5rem;
+    
+}
+    nav ul li a:hover{
+	text-decoration: underline;
+	font-weight: 800;
+}
+    a{
+	text-decoration: none;
+	color: #000000;
+}
+
+
+.icon { display: none; }
+
+
+/*pagina home*/
+
+
+
+.argument{
+    width: 1300px;
+    margin: 0 auto;
+    text-align: left;
+    border: 3px solid rgb(40, 90, 47);
+    border-radius: 20px;
+    box-sizing: border-box;
+
+}
+
+.sinopsis{ color:beige; 
+    text-align: center;
+    font-size: xx-large;
+}
+.argumento{text-align: center; color: white; font-size: larger;  }
+
+
+
+/*footerrrrr*/
+
+footer{width: 1300px;}
+
+.redes_sociales{ color: white; text-align: left;font-size: x-large; padding: 0.5em; ;}
+
+
+
+.redes{ display: flex;
+        justify-content: center;
+	    align-items: center;
+}
+
+.iconos{ 
+    width: 35px;
+    height: 35px;
+    margin-right:2rem;
+}
+
+.echo{ color: rgba(243, 237, 226, 0.699); text-align: center;font-size: medium;}
+
+/*pagina de elencos*/
+
+.h1-elenco{text-align: center; color:rgb(67, 80, 255); font-size: xx-large;}
+
+.pesonajes{
+    width: 1300px;
+    background-color: gray;
+    color:aliceblue;
+    font-size: x-large; 
+    margin: 0 auto;
+    text-align: left;
+    border: 5px solid rgb(20, 0, 90);
+    border-radius: 20px;
+    box-sizing: border-box;
+    display: flex;
+    padding: 20px;
+    margin-bottom: 1cm;
+
+}
+
+.fots-de-personajes{
+    width: 300px;
+    height: 300px;
+}
+
+/*pagina de las temparadas*/
+
+.h1-temporada{
+    text-align: center; color:rgb(219, 0, 0); font-size: xx-large; padding-bottom: 1cm;
+}
+
+.temp1{
+    width: 1300px;
+    background-color:rgb(0, 0, 70);
+    color:aliceblue;
+    font-size: large; 
+    margin: 0 auto;
+    text-align: center;
+    border: 5px solid rgb(109, 0, 0);
+    border-radius: 20px;
+    box-sizing: border-box;
+    display: block;
+    padding: 20px;
+    margin-bottom: 1cm;
+
+
+}
+.cap{font-size: medium;}
+
+.imagen-de-temporada{ 
+    width: 400px;
+    height: 400px;
+}
+
+/*formulario*/
+.h1-contacto{
+    text-align: center; color:wheat; font-size: xx-large;padding-bottom: 1cm;
+}
+
+/*.formulario{
+    
+    color:aliceblue;
+    font-size: large; 
+    margin: 0 auto;
+    text-align: center;
+    border: 5px solid rgb(92, 53, 2);
+    border-radius: 20px;
+    box-sizing: border-box;
+    display: block;
+    padding: 20px;
+    margin-bottom: 1cm;
+}
+*/
+
+.secundario-contacto{
+    width: 1300px;
+    background-color:grey;
+    
+    font-size: large; 
+    margin: 0 auto;
+    text-align: center;
+    border: 5px solid white;
+    border-radius: 20px;
+    box-sizing: border-box;
+    
+    padding: 20px;
+    margin-bottom: 1cm;
+}
+
+
+input {
+    width: 50%;
+    margin-top: 30px;
+    padding: 10px;
+    box-sizing: border-box;
+    background: none;
+    outline: none;
+    resize: none;
+    border: 0;
+    transition: all 0.3s;
+    border-bottom: 2px solid #bebed2;
+  }
+  
+  input:focus {
+    border-bottom: 2px solid green;
+  }
+  
+  button {
+    padding: 8px 12px;
+    margin: 50px 0 0;
+    border: 2px solid #098b3b;
+    background: 0;
+    color: #aa049c;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  button:hover {
+    background: black;
+    color:white;
+  }
+  
+  
+  .form {
+    width: 100%;
+    height: 440px;
+    background: #e6e6e6;
+    padding: 10px 30px;
+    box-sizing: border-box;
+    font-size: 14px;
+    position: static;
+  }
+
+  .btn-enviar {
+    width: 50%;
+    border: none;
+    border-radius: 5px;
+    background-color: gray;
+    color: #FFF;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color .3s ease;
+    padding: 10px;
+  }
+  
+  .btn-enviar:hover {
+    background-color: green;
+    box-shadow: 0 0 10px greenyellow;
+  }
+
+
+
+/*galeria*/
+.h1-galeria{text-align: center; color:wheat; font-size: xx-large; padding-bottom: 1cm; }
+
+.example-image{border-radius: 50px;}
+
+/*paginas datos*/
+.h1-ficha{text-align: center; color:rgb(0, 157, 219); font-size: xx-large; padding-bottom: 1cm;}
+
+.ficha{
+    width: 1300px;
+    background-color:rgb(1, 65, 54);
+    color:aliceblue;
+    font-size: large; 
+    margin: 0 auto;
+    text-align: center;
+    border: 5px solid rgb(109, 0, 0);
+    border-radius: 20px;
+    box-sizing: border-box;
+    display: block;
+    padding: 20px;
+    margin-bottom: 1cm;
+
+}
+
+.h2-critica{ text-align: center; color:rgb(194, 159, 3); font-size: xx-large;}
+
+.caja-critica{
+    width: 1300px;
+    background-color:rgb(1, 65, 54);
+    color:aliceblue;
+    font-size: large; 
+    margin: 0 auto;
+    text-align: center;
+    border: 5px solid rgb(109, 0, 0);
+    border-radius: 20px;
+    box-sizing: border-box;
+    display: block;
+    padding: 20px;
+    margin-bottom: 1cm;
+
+}
+
+.critica{height: 100px; width: 300px;
+margin-bottom: 1.2rem;}
+
+
+@media (max-width: 576px) 
+{ 
+    header{width: 570px;}
+    footer{width: 570px;}
+
+    
+    .icon {
+        display: block;
+        padding-right: 0.6rem;
+        text-align: right;
+    }
+
+    nav ul {display: none;}
+        
+    nav.responsive ul {
+        display: block;
+        }
+    nav.responsive ul li {
+        display: block;
+        text-align: center;
+        padding: 0.5rem;
+        }
+    nav.responsive ul li a {
+        padding-right: 0;
+        }
+    
+
+
+
+    .ficha{
+        width: 570px;
+        background-color:rgb(1, 65, 54);
+        color:aliceblue;
+        font-size: large; 
+        margin: 0 auto;
+        text-align: center;
+        border: 5px solid rgb(109, 0, 0);
+        border-radius: 20px;
+        box-sizing: border-box;
+        display: block;
+        padding: 20px;
+        margin-bottom: 1cm;
+    
+    }
+
+
+    .caja-critica{
+        width: 570px;
+        background-color:rgb(1, 65, 54);
+        color:aliceblue;
+        font-size: large; 
+        margin: 0 auto;
+        text-align: center;
+        border: 5px solid rgb(109, 0, 0);
+        border-radius: 20px;
+        box-sizing: border-box;
+        display: block;
+        padding: 20px;
+        margin-bottom: 1cm;
+    
+    }
+
+    .secundario-contacto{
+        width: 570px;
+        background-color:grey;
+        
+        font-size: large; 
+        margin: 0 auto;
+        text-align: center;
+        border: 5px solid white;
+        border-radius: 20px;
+        box-sizing: border-box;
+        
+        padding: 20px;
+        margin-bottom: 1cm;
+    }
+
+
+    .temp1{
+        width: 570px;
+        background-color:rgb(0, 0, 70);
+        color:aliceblue;
+        font-size: large; 
+        margin: 0 auto;
+        text-align: center;
+        border: 5px solid rgb(109, 0, 0);
+        border-radius: 20px;
+        box-sizing: border-box;
+        display: block;
+        padding: 20px;
+        margin-bottom: 1cm;
+    
+    
+    }
+
+    .pesonajes{
+        width: 570px;
+        background-color: gray;
+        color:aliceblue;
+        font-size: x-large; 
+        margin: 0 auto;
+        text-align: left;
+        border: 5px solid rgb(20, 0, 90);
+        border-radius: 20px;
+        box-sizing: border-box;
+        display: flex;
+        padding: 20px;
+        margin-bottom: 1cm;
+    
+    }
+
+    .argument{
+        width: 570px;
+        margin: 0 auto;
+        text-align: left;
+        border: 3px solid rgb(40, 90, 47);
+        border-radius: 20px;
+        box-sizing: border-box;
+    
+    }
+}
+
